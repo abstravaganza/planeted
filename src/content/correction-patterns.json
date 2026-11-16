@@ -1,0 +1,97 @@
+[
+  {
+    "id": "with",
+    "title": "С кем? · с + instrumental",
+    "before": "Я гуляю с мой подругой.",
+    "after": "Я гуляю с моей подругой.",
+    "explanation": "After с meaning “with,” the describing word and noun take instrumental endings together.",
+    "items": [
+      {
+        "prompt": "Я готовлю с ___ братом. (мой)",
+        "answers": ["моим"],
+        "feedback": "Use моим with masculine instrumental братом."
+      },
+      {
+        "prompt": "Я слушаю музыку с ___ сестрой. (моя)",
+        "answers": ["моей"],
+        "feedback": "Use моей with feminine instrumental сестрой."
+      }
+    ],
+    "transferPrompt": "Write one sentence about doing something with a person. Use с моей… or с моим….",
+    "reviewedTransfers": [
+      "Я гуляю с моей сестрой.",
+      "Я гуляю с моим братом.",
+      "Я играю с моей подругой.",
+      "Я готовлю с моим братом.",
+      "Я слушаю музыку с моей сестрой."
+    ],
+    "supportedEdits": [
+      ["с мой подругой", "с моей подругой"],
+      ["с мой братом", "с моим братом"],
+      ["с моя сестра", "с моей сестрой"],
+      ["с моя подруга", "с моей подругой"]
+    ]
+  },
+  {
+    "id": "after",
+    "title": "После чего? · после + genitive",
+    "before": "Мы гуляем после школа.",
+    "after": "Мы гуляем после школы.",
+    "explanation": "После means “after” and takes the genitive: школа → школы, уроки → уроков.",
+    "items": [
+      {
+        "prompt": "Я готовлю после ___. (школа)",
+        "answers": ["школы"],
+        "feedback": "Школа changes to школы after после."
+      },
+      {
+        "prompt": "Мы гуляем после ___. (уроки)",
+        "answers": ["уроков"],
+        "feedback": "The plural genitive of уроки is уроков."
+      }
+    ],
+    "transferPrompt": "Write one sentence about what you do after school or after lessons.",
+    "reviewedTransfers": [
+      "Я гуляю после школы.",
+      "Я готовлю после школы.",
+      "Я слушаю музыку после уроков.",
+      "Я играю в теннис после школы.",
+      "После школы я гуляю с друзьями."
+    ],
+    "supportedEdits": [
+      ["после школа", "после школы"],
+      ["после уроки", "после уроков"]
+    ]
+  },
+  {
+    "id": "because",
+    "title": "Почему? · потому что",
+    "before": "Я люблю музыку, нравится.",
+    "after": "Я люблю музыку, потому что она помогает мне отдыхать.",
+    "explanation": "Потому что joins your idea to a complete reason: say what happens or why something matters.",
+    "items": [
+      {
+        "prompt": "Я люблю готовить, ___ это интересно. (because)",
+        "answers": ["потому что"],
+        "feedback": "Use the two-word connector потому что."
+      },
+      {
+        "prompt": "Choose the complete reason: A — потому что нравится; B — потому что мне нравится петь.",
+        "answers": ["b", "б", "потому что мне нравится петь"],
+        "feedback": "B gives a complete reason: мне нравится петь tells what the speaker enjoys."
+      }
+    ],
+    "transferPrompt": "Write one complete sentence with потому что and a specific reason.",
+    "reviewedTransfers": [
+      "Я люблю музыку, потому что она помогает мне отдыхать.",
+      "Я люблю готовить, потому что это интересно.",
+      "Я гуляю в парке, потому что там красиво.",
+      "Я люблю спорт, потому что это весело.",
+      "Я слушаю музыку, потому что мне нравится петь."
+    ],
+    "supportedEdits": [
+      ["потомучто", "потому что"],
+      ["потому-что", "потому что"]
+    ]
+  }
+]

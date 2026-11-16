@@ -1,0 +1,164 @@
+{
+  "sports": {
+    "sample": "Привет! В субботу я хочу играть в теннис с тобой в парке. Мне нравится теннис, потому что это весело. После игры мы можем погулять. Ты любишь теннис?",
+    "feedback": {
+      "summary": "This is illustrative feedback on the example below. Your saved writing has not been evaluated.",
+      "dimensions": [
+        {
+          "name": "Prompt completion",
+          "level": "Clear",
+          "detail": "The sample proposes tennis in a park on Saturday and asks the friend a question."
+        },
+        {
+          "name": "Comprehensibility",
+          "level": "Clear",
+          "detail": "The sample communicates a plan a friend can follow."
+        },
+        {
+          "name": "Sentence development",
+          "level": "Developing",
+          "detail": "The sample includes a complete reason with потому что."
+        },
+        {
+          "name": "Organization",
+          "level": "Developing",
+          "detail": "The sample keeps the plan and its details together."
+        },
+        {
+          "name": "Language accuracy",
+          "level": "Developing",
+          "detail": "The sample demonstrates familiar time and place phrases."
+        }
+      ],
+      "strengths": [
+        "It connects an activity to a reason and adds a follow-up plan."
+      ],
+      "nextSteps": [
+        "The sample could explain why this park is a good place to meet."
+      ],
+      "issues": [],
+      "corrections": []
+    }
+  },
+  "food": {
+    "sample": "Привет! Давай приготовим суп в воскресенье у меня дома. Мой папа может нам помочь. Я люблю суп, потому что он вкусный. Какой суп тебе нравится?",
+    "feedback": {
+      "summary": "This is illustrative feedback on the example below. Your saved writing has not been evaluated.",
+      "dimensions": [
+        {
+          "name": "Prompt completion",
+          "level": "Clear",
+          "detail": "The sample proposes a dish, a time, a place, and someone who can help."
+        },
+        {
+          "name": "Comprehensibility",
+          "level": "Clear",
+          "detail": "The sample communicates a plan a friend can follow."
+        },
+        {
+          "name": "Sentence development",
+          "level": "Developing",
+          "detail": "The sample includes a complete reason with потому что."
+        },
+        {
+          "name": "Organization",
+          "level": "Developing",
+          "detail": "The sample keeps the plan and its details together."
+        },
+        {
+          "name": "Language accuracy",
+          "level": "Developing",
+          "detail": "The sample demonstrates familiar time and place phrases."
+        }
+      ],
+      "strengths": [
+        "It gives a reason and asks about the friend’s preferences."
+      ],
+      "nextSteps": [
+        "The sample could add a detail about preparing the ingredients."
+      ],
+      "issues": [],
+      "corrections": []
+    }
+  },
+  "music": {
+    "sample": "Привет! В субботу днём мы можем послушать музыку у меня дома. Я хочу послушать новую песню, потому что мне нравится петь. Какая музыка тебе нравится?",
+    "feedback": {
+      "summary": "This is illustrative feedback on the example below. Your saved writing has not been evaluated.",
+      "dimensions": [
+        {
+          "name": "Prompt completion",
+          "level": "Clear",
+          "detail": "The sample names music, a time, a place, and a reason."
+        },
+        {
+          "name": "Comprehensibility",
+          "level": "Clear",
+          "detail": "The sample communicates a plan a friend can follow."
+        },
+        {
+          "name": "Sentence development",
+          "level": "Developing",
+          "detail": "The sample includes a complete reason with потому что."
+        },
+        {
+          "name": "Organization",
+          "level": "Developing",
+          "detail": "The sample keeps the plan and its details together."
+        },
+        {
+          "name": "Language accuracy",
+          "level": "Developing",
+          "detail": "The sample demonstrates familiar time and place phrases."
+        }
+      ],
+      "strengths": [
+        "It connects sentences and ends with a question about the friend’s taste."
+      ],
+      "nextSteps": [
+        "The sample could name a specific artist or describe the music."
+      ],
+      "issues": [],
+      "corrections": []
+    }
+  },
+  "weekend": {
+    "sample": "Привет! Давай встретимся в субботу в два часа в парке. Мы можем погулять и поговорить. Мне нравится этот парк, потому что там красиво. Что ты хочешь делать?",
+    "feedback": {
+      "summary": "This is illustrative feedback on the example below. Your saved writing has not been evaluated.",
+      "dimensions": [
+        {
+          "name": "Prompt completion",
+          "level": "Clear",
+          "detail": "The sample gives a meeting place, a time, and activities for an afternoon."
+        },
+        {
+          "name": "Comprehensibility",
+          "level": "Clear",
+          "detail": "The sample communicates a plan a friend can follow."
+        },
+        {
+          "name": "Sentence development",
+          "level": "Developing",
+          "detail": "The sample includes a complete reason with потому что."
+        },
+        {
+          "name": "Organization",
+          "level": "Developing",
+          "detail": "The sample keeps the plan and its details together."
+        },
+        {
+          "name": "Language accuracy",
+          "level": "Developing",
+          "detail": "The sample demonstrates familiar time and place phrases."
+        }
+      ],
+      "strengths": [
+        "It explains why the place is appealing and invites the friend’s ideas."
+      ],
+      "nextSteps": ["The sample could describe one thing to see in the park."],
+      "issues": [],
+      "corrections": []
+    }
+  }
+}

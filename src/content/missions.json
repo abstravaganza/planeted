@@ -1,0 +1,252 @@
+[
+  {
+    "id": "sports",
+    "title": "Спорт и здоровье",
+    "english": "Sports and wellness",
+    "objective": "Describe how you stay active and why it matters to you.",
+    "prompt": "Tell a Russian-speaking friend about activities you enjoy. Explain when, where and with whom you do them, and why.",
+    "bossPrompt": "Your friend wants to try a new healthy routine. Describe a typical active day, explain what you enjoy and ask your friend a question.",
+    "difficulty": "Starter",
+    "theme": "sage",
+    "illustration": "sports",
+    "language": "ru",
+    "sample": [
+      "Я играю в теннис с подругами.",
+      "После школы мы встречаемся на корте.",
+      "Мне нравится проводить время на свежем воздухе.",
+      "По выходным я гуляю с собакой."
+    ],
+    "goals": [
+      "Describe personal experiences",
+      "Connect original sentences",
+      "Ask a relevant question"
+    ],
+    "requiredContent": ["activities", "when and where", "company", "reasons"],
+    "sentenceSettings": {
+      "targetMin": 4,
+      "targetMax": 6,
+      "maxUnits": 8
+    },
+    "grammarTargets": ["with", "after", "because"],
+    "connectorOpportunities": ["addition", "reason", "example"],
+    "feedbackObjectives": [
+      "Prompt completion",
+      "Communicative clarity",
+      "Sentence construction",
+      "Grammar control",
+      "Organization",
+      "Elaboration",
+      "Independence from hints"
+    ]
+  },
+  {
+    "id": "friends",
+    "title": "Мои друзья",
+    "english": "Friends and relationships",
+    "objective": "Introduce the people who make your days better.",
+    "prompt": "Tell a Russian-speaking friend about someone important to you. Describe their personality, what you do together and why you enjoy their company.",
+    "bossPrompt": "Introduce a friend to a new classmate. Describe your friend, a shared experience and a plan for your next meeting. Ask a question.",
+    "difficulty": "Starter",
+    "theme": "peach",
+    "illustration": "friends",
+    "language": "ru",
+    "sample": [
+      "Мою подругу зовут Аня.",
+      "После уроков мы гуляем в парке.",
+      "Она умеет внимательно слушать.",
+      "Мне нравится общаться с ней."
+    ],
+    "goals": [
+      "Describe personal experiences",
+      "Connect original sentences",
+      "Ask a relevant question"
+    ],
+    "requiredContent": [
+      "personality",
+      "shared activity",
+      "reasons",
+      "a shared experience"
+    ],
+    "sentenceSettings": {
+      "targetMin": 4,
+      "targetMax": 6,
+      "maxUnits": 8
+    },
+    "grammarTargets": ["with", "after", "because"],
+    "connectorOpportunities": ["addition", "reason", "example"],
+    "feedbackObjectives": [
+      "Prompt completion",
+      "Communicative clarity",
+      "Sentence construction",
+      "Grammar control",
+      "Organization",
+      "Elaboration",
+      "Independence from hints"
+    ]
+  },
+  {
+    "id": "town",
+    "title": "Мой город",
+    "english": "My town",
+    "objective": "Show a visitor the places that matter to you.",
+    "prompt": "Describe your town to a Russian-speaking visitor. Recommend places, explain what people can do there and tell them why you like one place.",
+    "bossPrompt": "Plan an afternoon in your town for a visiting friend. Describe two places, explain your choices and ask what your friend would like to do.",
+    "difficulty": "Developing",
+    "theme": "sky",
+    "illustration": "town",
+    "language": "ru",
+    "sample": [
+      "Я живу в небольшом городе.",
+      "В центре есть красивый парк.",
+      "Я часто гуляю там с друзьями.",
+      "Рядом с парком находится библиотека."
+    ],
+    "goals": [
+      "Describe personal experiences",
+      "Connect original sentences",
+      "Ask a relevant question"
+    ],
+    "requiredContent": ["places", "activities", "recommendations", "reasons"],
+    "sentenceSettings": {
+      "targetMin": 4,
+      "targetMax": 6,
+      "maxUnits": 8
+    },
+    "grammarTargets": ["with", "because"],
+    "connectorOpportunities": ["addition", "reason", "example"],
+    "feedbackObjectives": [
+      "Prompt completion",
+      "Communicative clarity",
+      "Sentence construction",
+      "Grammar control",
+      "Organization",
+      "Elaboration",
+      "Independence from hints"
+    ]
+  },
+  {
+    "id": "school",
+    "title": "Школьная жизнь",
+    "english": "School life",
+    "objective": "Give someone a glimpse of your school day.",
+    "prompt": "Describe your school day to a Russian-speaking student. Explain your subjects, a favorite class and what you do after lessons.",
+    "bossPrompt": "A student is joining your school. Describe a typical day, recommend a class or club, explain why and ask about their interests.",
+    "difficulty": "Starter",
+    "theme": "lilac",
+    "illustration": "school",
+    "language": "ru",
+    "sample": [
+      "Мой любимый предмет — история.",
+      "На уроках мы обсуждаем интересные события.",
+      "После школы я хожу в театральный кружок.",
+      "Я люблю работать вместе с друзьями."
+    ],
+    "goals": [
+      "Describe personal experiences",
+      "Connect original sentences",
+      "Ask a relevant question"
+    ],
+    "requiredContent": [
+      "routine",
+      "subjects",
+      "favorite class",
+      "after school"
+    ],
+    "sentenceSettings": {
+      "targetMin": 4,
+      "targetMax": 6,
+      "maxUnits": 8
+    },
+    "grammarTargets": ["after", "because"],
+    "connectorOpportunities": ["addition", "reason", "example"],
+    "feedbackObjectives": [
+      "Prompt completion",
+      "Communicative clarity",
+      "Sentence construction",
+      "Grammar control",
+      "Organization",
+      "Elaboration",
+      "Independence from hints"
+    ]
+  },
+  {
+    "id": "weekend",
+    "title": "Мои выходные",
+    "english": "Weekend experiences",
+    "objective": "Turn a memorable weekend into a short story.",
+    "prompt": "Tell a Russian-speaking friend about a recent weekend. Explain where you went, who was with you, what happened and how you felt.",
+    "bossPrompt": "Describe a memorable day off to your cousin. Tell what happened first and next, explain how you felt and ask about their weekend.",
+    "difficulty": "Developing",
+    "theme": "lemon",
+    "illustration": "weekend",
+    "language": "ru",
+    "sample": [
+      "В субботу я ходила в музей с братом.",
+      "Сначала мы посмотрели выставку.",
+      "После этого мы пообедали в кафе.",
+      "Мне очень понравился этот день."
+    ],
+    "goals": [
+      "Describe personal experiences",
+      "Connect original sentences",
+      "Ask a relevant question"
+    ],
+    "requiredContent": ["past experience", "sequence", "company", "feelings"],
+    "sentenceSettings": {
+      "targetMin": 4,
+      "targetMax": 6,
+      "maxUnits": 8
+    },
+    "grammarTargets": ["with", "after", "because"],
+    "connectorOpportunities": ["addition", "reason", "example", "sequence"],
+    "feedbackObjectives": [
+      "Prompt completion",
+      "Communicative clarity",
+      "Sentence construction",
+      "Grammar control",
+      "Organization",
+      "Elaboration",
+      "Independence from hints"
+    ]
+  },
+  {
+    "id": "guest",
+    "title": "Гость из России",
+    "english": "An exchange student",
+    "objective": "Help a new student feel at home.",
+    "prompt": "A Russian-speaking exchange student is visiting your family. Describe your home routine, suggest an activity together and explain why it would be interesting.",
+    "bossPrompt": "Write to an exchange student arriving next week. Describe a plan for their first day, explain one family routine and ask about their preferences.",
+    "difficulty": "Developing",
+    "theme": "rose",
+    "illustration": "guest",
+    "language": "ru",
+    "sample": [
+      "К нам приезжает ученик из России.",
+      "По вечерам наша семья ужинает вместе.",
+      "Я хочу показать ему наш город.",
+      "В выходные мы можем сходить в музей."
+    ],
+    "goals": [
+      "Describe personal experiences",
+      "Connect original sentences",
+      "Ask a relevant question"
+    ],
+    "requiredContent": ["welcome", "routine", "a plan", "reasons"],
+    "sentenceSettings": {
+      "targetMin": 4,
+      "targetMax": 6,
+      "maxUnits": 8
+    },
+    "grammarTargets": ["with", "because"],
+    "connectorOpportunities": ["addition", "reason", "example"],
+    "feedbackObjectives": [
+      "Prompt completion",
+      "Communicative clarity",
+      "Sentence construction",
+      "Grammar control",
+      "Organization",
+      "Elaboration",
+      "Independence from hints"
+    ]
+  }
+]

@@ -1,0 +1,496 @@
+[
+  {
+    "id": "sports",
+    "title": "Спорт и моя жизнь",
+    "english": "Sport & my life",
+    "description": "Describe how you stay active.",
+    "base": "Я играю в теннис",
+    "meaning": "I play tennis with my friends after school.",
+    "tiles": [
+      {
+        "id": "who",
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "id": "action",
+        "text": "играю",
+        "role": "verb"
+      },
+      {
+        "id": "prep-activity",
+        "text": "в",
+        "role": "preposition"
+      },
+      {
+        "id": "what",
+        "text": "теннис",
+        "role": "activity"
+      },
+      {
+        "id": "prep-company",
+        "text": "с",
+        "role": "preposition"
+      },
+      {
+        "id": "company",
+        "text": "подругами",
+        "role": "company"
+      },
+      {
+        "id": "prep-time",
+        "text": "после",
+        "role": "preposition"
+      },
+      {
+        "id": "time",
+        "text": "школы",
+        "role": "time"
+      }
+    ],
+    "tileOrder": [
+      "company",
+      "prep-time",
+      "action",
+      "prep-company",
+      "time",
+      "who",
+      "what",
+      "prep-activity"
+    ],
+    "acceptableOrders": [
+      [
+        "who",
+        "action",
+        "prep-activity",
+        "what",
+        "prep-company",
+        "company",
+        "prep-time",
+        "time"
+      ],
+      [
+        "prep-time",
+        "time",
+        "who",
+        "action",
+        "prep-activity",
+        "what",
+        "prep-company",
+        "company"
+      ],
+      [
+        "who",
+        "prep-time",
+        "time",
+        "action",
+        "prep-activity",
+        "what",
+        "prep-company",
+        "company"
+      ],
+      [
+        "who",
+        "prep-company",
+        "company",
+        "action",
+        "prep-activity",
+        "what",
+        "prep-time",
+        "time"
+      ],
+      [
+        "prep-company",
+        "company",
+        "who",
+        "action",
+        "prep-activity",
+        "what",
+        "prep-time",
+        "time"
+      ],
+      [
+        "who",
+        "action",
+        "prep-activity",
+        "what",
+        "prep-time",
+        "time",
+        "prep-company",
+        "company"
+      ],
+      [
+        "prep-time",
+        "time",
+        "who",
+        "prep-company",
+        "company",
+        "action",
+        "prep-activity",
+        "what"
+      ],
+      [
+        "who",
+        "action",
+        "prep-time",
+        "time",
+        "prep-activity",
+        "what",
+        "prep-company",
+        "company"
+      ]
+    ],
+    "links": [
+      ["prep-activity", "what"],
+      ["prep-company", "company"],
+      ["prep-time", "time"]
+    ],
+    "ideaPrompt": "Your Russian-speaking friend wants to know how you stay physically active. Write a message describing activities you enjoy. Explain when you do them, who you do them with, and why you enjoy them.",
+    "writingPrompt": "A Russian-speaking friend is visiting you next weekend. Write a message describing an active day you would like to spend together. Include what you want to do, when and where, and why you enjoy these activities. Ask your friend a question.",
+    "expansions": [
+      {
+        "id": "when",
+        "label": "Когда?",
+        "english": "When",
+        "options": ["по субботам", "после школы", "всегда", "иногда", "часто"]
+      },
+      {
+        "id": "where",
+        "label": "Где?",
+        "english": "Where",
+        "options": ["в парке", "в центре", "в спортзале", "на корте"]
+      },
+      {
+        "id": "why",
+        "label": "Почему?",
+        "english": "Why",
+        "options": [
+          "потому что это весело",
+          "потому что мне нравится играть с друзьями",
+          "потому что я люблю спорт"
+        ]
+      },
+      {
+        "id": "company",
+        "label": "С кем?",
+        "english": "With whom",
+        "options": ["с друзьями", "с подругами", "с моей подругой", "с братом"]
+      }
+    ]
+  },
+  {
+    "id": "food",
+    "title": "Готовим вместе",
+    "english": "Food & family",
+    "description": "Share a family meal and the people behind it.",
+    "base": "Я готовлю ужин",
+    "meaning": "I cook dinner with my dad at home.",
+    "tiles": [
+      {
+        "id": "who",
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "id": "action",
+        "text": "готовлю",
+        "role": "verb"
+      },
+      {
+        "id": "what",
+        "text": "ужин",
+        "role": "activity"
+      },
+      {
+        "id": "prep-company",
+        "text": "с",
+        "role": "preposition"
+      },
+      {
+        "id": "company",
+        "text": "папой",
+        "role": "company"
+      },
+      {
+        "id": "place",
+        "text": "дома",
+        "role": "place"
+      }
+    ],
+    "tileOrder": ["place", "company", "prep-company", "what", "action", "who"],
+    "acceptableOrders": [
+      ["who", "action", "what", "prep-company", "company", "place"],
+      ["place", "who", "action", "what", "prep-company", "company"],
+      ["who", "place", "action", "what", "prep-company", "company"],
+      ["who", "prep-company", "company", "action", "what", "place"]
+    ],
+    "links": [["prep-company", "company"]],
+    "ideaPrompt": "Tell a Russian-speaking friend about a meal you enjoy making or eating with family. Describe what it is, who prepares it, when you eat it, and why you like it.",
+    "writingPrompt": "Your friend wants to cook with you this weekend. Write a message proposing a dish, explaining where and when you could cook, who could help, and why you chose it. Ask your friend a question.",
+    "expansions": [
+      {
+        "id": "when",
+        "label": "Когда?",
+        "english": "When",
+        "options": ["по выходным", "по воскресеньям", "вечером", "часто"]
+      },
+      {
+        "id": "where",
+        "label": "Где?",
+        "english": "Where",
+        "options": ["дома", "на кухне", "у бабушки"]
+      },
+      {
+        "id": "why",
+        "label": "Почему?",
+        "english": "Why",
+        "options": [
+          "потому что это вкусно",
+          "потому что я люблю готовить",
+          "потому что мне нравится помогать семье"
+        ]
+      },
+      {
+        "id": "company",
+        "label": "С кем?",
+        "english": "With whom",
+        "options": ["с папой", "с мамой", "с бабушкой", "с друзьями"]
+      }
+    ]
+  },
+  {
+    "id": "music",
+    "title": "Музыка в моей жизни",
+    "english": "Music & friends",
+    "description": "Talk about what you listen to and why it matters.",
+    "base": "Я слушаю музыку",
+    "meaning": "I listen to music with my sister after school.",
+    "tiles": [
+      {
+        "id": "who",
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "id": "action",
+        "text": "слушаю",
+        "role": "verb"
+      },
+      {
+        "id": "what",
+        "text": "музыку",
+        "role": "activity"
+      },
+      {
+        "id": "prep-company",
+        "text": "с",
+        "role": "preposition"
+      },
+      {
+        "id": "company",
+        "text": "сестрой",
+        "role": "company"
+      },
+      {
+        "id": "prep-time",
+        "text": "после",
+        "role": "preposition"
+      },
+      {
+        "id": "time",
+        "text": "школы",
+        "role": "time"
+      }
+    ],
+    "tileOrder": [
+      "time",
+      "prep-time",
+      "company",
+      "prep-company",
+      "what",
+      "action",
+      "who"
+    ],
+    "acceptableOrders": [
+      ["who", "action", "what", "prep-company", "company", "prep-time", "time"],
+      ["prep-time", "time", "who", "action", "what", "prep-company", "company"],
+      ["who", "prep-company", "company", "action", "what", "prep-time", "time"],
+      ["who", "action", "what", "prep-time", "time", "prep-company", "company"]
+    ],
+    "links": [
+      ["prep-company", "company"],
+      ["prep-time", "time"]
+    ],
+    "ideaPrompt": "Describe music you enjoy to a Russian-speaking friend. Explain when and where you listen, who listens with you, and why you enjoy it.",
+    "writingPrompt": "A friend asks for a plan for a musical afternoon together. Write a message saying what you would like to listen to, where and when, and why. Ask about your friend’s musical interests.",
+    "expansions": [
+      {
+        "id": "when",
+        "label": "Когда?",
+        "english": "When",
+        "options": ["после школы", "вечером", "по выходным", "иногда"]
+      },
+      {
+        "id": "where",
+        "label": "Где?",
+        "english": "Where",
+        "options": ["дома", "в комнате", "в парке"]
+      },
+      {
+        "id": "why",
+        "label": "Почему?",
+        "english": "Why",
+        "options": [
+          "потому что это помогает мне отдыхать",
+          "потому что мне нравится петь",
+          "потому что музыка поднимает настроение"
+        ]
+      },
+      {
+        "id": "company",
+        "label": "С кем?",
+        "english": "With whom",
+        "options": ["с сестрой", "с братом", "с друзьями", "с подругой"]
+      }
+    ]
+  },
+  {
+    "id": "weekend",
+    "title": "Выходные в городе",
+    "english": "Weekends & places",
+    "description": "Plan time with friends somewhere you enjoy.",
+    "base": "Я гуляю",
+    "meaning": "I walk in the park with my friends on Saturday.",
+    "tiles": [
+      {
+        "id": "who",
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "id": "action",
+        "text": "гуляю",
+        "role": "verb"
+      },
+      {
+        "id": "prep-place",
+        "text": "в",
+        "role": "preposition"
+      },
+      {
+        "id": "place",
+        "text": "парке",
+        "role": "place"
+      },
+      {
+        "id": "prep-company",
+        "text": "с",
+        "role": "preposition"
+      },
+      {
+        "id": "company",
+        "text": "друзьями",
+        "role": "company"
+      },
+      {
+        "id": "prep-time",
+        "text": "в",
+        "role": "preposition"
+      },
+      {
+        "id": "time",
+        "text": "субботу",
+        "role": "time"
+      }
+    ],
+    "tileOrder": [
+      "time",
+      "prep-time",
+      "company",
+      "prep-company",
+      "place",
+      "prep-place",
+      "action",
+      "who"
+    ],
+    "acceptableOrders": [
+      [
+        "who",
+        "action",
+        "prep-place",
+        "place",
+        "prep-company",
+        "company",
+        "prep-time",
+        "time"
+      ],
+      [
+        "prep-time",
+        "time",
+        "who",
+        "action",
+        "prep-place",
+        "place",
+        "prep-company",
+        "company"
+      ],
+      [
+        "who",
+        "prep-company",
+        "company",
+        "action",
+        "prep-place",
+        "place",
+        "prep-time",
+        "time"
+      ],
+      [
+        "prep-place",
+        "place",
+        "who",
+        "action",
+        "prep-company",
+        "company",
+        "prep-time",
+        "time"
+      ]
+    ],
+    "links": [
+      ["prep-place", "place"],
+      ["prep-company", "company"],
+      ["prep-time", "time"]
+    ],
+    "ideaPrompt": "Tell a Russian-speaking friend about a place you enjoy visiting in your town. Describe where it is, when you go, who goes with you, and what you enjoy there.",
+    "writingPrompt": "A friend is visiting your town. Write a message planning a relaxed afternoon: suggest a place, explain when to meet and what to do, and say why you like it. Ask your friend a question.",
+    "expansions": [
+      {
+        "id": "when",
+        "label": "Когда?",
+        "english": "When",
+        "options": ["в субботу", "по выходным", "после школы", "часто"]
+      },
+      {
+        "id": "where",
+        "label": "Где?",
+        "english": "Where",
+        "options": ["в парке", "в центре", "у реки"]
+      },
+      {
+        "id": "why",
+        "label": "Почему?",
+        "english": "Why",
+        "options": [
+          "потому что там красиво",
+          "потому что я люблю свежий воздух",
+          "потому что мне нравится общаться с друзьями"
+        ]
+      },
+      {
+        "id": "company",
+        "label": "С кем?",
+        "english": "With whom",
+        "options": ["с друзьями", "с подругой", "с семьёй", "с братом"]
+      }
+    ]
+  }
+]

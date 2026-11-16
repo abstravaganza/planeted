@@ -1,0 +1,636 @@
+[
+  {
+    "text": "Я играю в теннис с подругами.",
+    "meaning": "I play tennis with my female friends.",
+    "tiles": [
+      {
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "text": "играю",
+        "role": "verb"
+      },
+      {
+        "text": "в теннис",
+        "role": "preposition"
+      },
+      {
+        "text": "с подругами",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "После школы мы встречаемся на корте.",
+    "meaning": "After school, we meet on the tennis court.",
+    "tiles": [
+      {
+        "text": "После школы",
+        "role": "time"
+      },
+      {
+        "text": "мы",
+        "role": "subject"
+      },
+      {
+        "text": "встречаемся",
+        "role": "verb"
+      },
+      {
+        "text": "на корте",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Мне нравится проводить время на свежем воздухе.",
+    "meaning": "I enjoy spending time outdoors.",
+    "tiles": [
+      {
+        "text": "Мне",
+        "role": "complement"
+      },
+      {
+        "text": "нравится",
+        "role": "verb"
+      },
+      {
+        "text": "проводить время на свежем воздухе",
+        "role": "subject"
+      }
+    ]
+  },
+  {
+    "text": "По выходным я гуляю с собакой.",
+    "meaning": "On weekends I walk my dog.",
+    "tiles": [
+      {
+        "text": "По выходным",
+        "role": "time"
+      },
+      {
+        "text": "я",
+        "role": "subject"
+      },
+      {
+        "text": "гуляю",
+        "role": "verb"
+      },
+      {
+        "text": "с собакой",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Мою подругу зовут Аня.",
+    "meaning": "My friend is called Anya.",
+    "tiles": [
+      {
+        "text": "Мою подругу",
+        "role": "complement"
+      },
+      {
+        "text": "зовут",
+        "role": "verb"
+      },
+      {
+        "text": "Аня",
+        "role": "complement"
+      }
+    ]
+  },
+  {
+    "text": "После уроков мы гуляем в парке.",
+    "meaning": "After lessons, we walk in the park.",
+    "tiles": [
+      {
+        "text": "После уроков",
+        "role": "time"
+      },
+      {
+        "text": "мы",
+        "role": "subject"
+      },
+      {
+        "text": "гуляем",
+        "role": "verb"
+      },
+      {
+        "text": "в парке",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Она умеет внимательно слушать.",
+    "meaning": "She knows how to listen carefully.",
+    "tiles": [
+      {
+        "text": "Она",
+        "role": "subject"
+      },
+      {
+        "text": "умеет внимательно слушать",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "text": "Мне нравится общаться с ней.",
+    "meaning": "I enjoy talking with her.",
+    "tiles": [
+      {
+        "text": "Мне",
+        "role": "complement"
+      },
+      {
+        "text": "нравится",
+        "role": "verb"
+      },
+      {
+        "text": "общаться с ней",
+        "role": "subject"
+      }
+    ]
+  },
+  {
+    "text": "Я живу в небольшом городе.",
+    "meaning": "I live in a small town.",
+    "tiles": [
+      {
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "text": "живу",
+        "role": "verb"
+      },
+      {
+        "text": "в небольшом городе",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "В центре есть красивый парк.",
+    "meaning": "There is a beautiful park in the center.",
+    "tiles": [
+      {
+        "text": "В центре",
+        "role": "preposition"
+      },
+      {
+        "text": "есть",
+        "role": "verb"
+      },
+      {
+        "text": "красивый парк",
+        "role": "subject"
+      }
+    ]
+  },
+  {
+    "text": "Я часто гуляю там с друзьями.",
+    "meaning": "I often walk there with friends.",
+    "tiles": [
+      {
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "text": "часто",
+        "role": "time"
+      },
+      {
+        "text": "гуляю там",
+        "role": "verb"
+      },
+      {
+        "text": "с друзьями",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Рядом с парком находится библиотека.",
+    "meaning": "The library is next to the park.",
+    "tiles": [
+      {
+        "text": "Рядом с парком",
+        "role": "preposition"
+      },
+      {
+        "text": "находится",
+        "role": "verb"
+      },
+      {
+        "text": "библиотека",
+        "role": "subject"
+      }
+    ]
+  },
+  {
+    "text": "Мой любимый предмет — история.",
+    "meaning": "History is my favorite subject.",
+    "tiles": [
+      {
+        "text": "Мой любимый предмет",
+        "role": "subject"
+      },
+      {
+        "text": "— история",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "text": "На уроках мы обсуждаем интересные события.",
+    "meaning": "We discuss interesting events in class.",
+    "tiles": [
+      {
+        "text": "На уроках",
+        "role": "preposition"
+      },
+      {
+        "text": "мы",
+        "role": "subject"
+      },
+      {
+        "text": "обсуждаем",
+        "role": "verb"
+      },
+      {
+        "text": "интересные события",
+        "role": "complement"
+      }
+    ]
+  },
+  {
+    "text": "После школы я хожу в театральный кружок.",
+    "meaning": "After school I go to a drama club.",
+    "tiles": [
+      {
+        "text": "После школы",
+        "role": "time"
+      },
+      {
+        "text": "я",
+        "role": "subject"
+      },
+      {
+        "text": "хожу",
+        "role": "verb"
+      },
+      {
+        "text": "в театральный кружок",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Я люблю работать вместе с друзьями.",
+    "meaning": "I enjoy working with friends.",
+    "tiles": [
+      {
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "text": "люблю работать",
+        "role": "verb"
+      },
+      {
+        "text": "вместе с друзьями",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "В субботу я ходила в музей с братом.",
+    "meaning": "On Saturday I went to the museum with my brother.",
+    "tiles": [
+      {
+        "text": "В субботу",
+        "role": "time"
+      },
+      {
+        "text": "я",
+        "role": "subject"
+      },
+      {
+        "text": "ходила",
+        "role": "verb"
+      },
+      {
+        "text": "в музей",
+        "role": "preposition"
+      },
+      {
+        "text": "с братом",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Сначала мы посмотрели выставку.",
+    "meaning": "First we looked at an exhibition.",
+    "tiles": [
+      {
+        "text": "Сначала",
+        "role": "time"
+      },
+      {
+        "text": "мы",
+        "role": "subject"
+      },
+      {
+        "text": "посмотрели",
+        "role": "verb"
+      },
+      {
+        "text": "выставку",
+        "role": "complement"
+      }
+    ]
+  },
+  {
+    "text": "После этого мы пообедали в кафе.",
+    "meaning": "After that we had lunch in a cafe.",
+    "tiles": [
+      {
+        "text": "После этого",
+        "role": "time"
+      },
+      {
+        "text": "мы",
+        "role": "subject"
+      },
+      {
+        "text": "пообедали",
+        "role": "verb"
+      },
+      {
+        "text": "в кафе",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Мне очень понравился этот день.",
+    "meaning": "I really enjoyed that day.",
+    "tiles": [
+      {
+        "text": "Мне",
+        "role": "complement"
+      },
+      {
+        "text": "очень понравился",
+        "role": "verb"
+      },
+      {
+        "text": "этот день",
+        "role": "subject"
+      }
+    ]
+  },
+  {
+    "text": "К нам приезжает ученик из России.",
+    "meaning": "An exchange student from Russia is coming to visit us.",
+    "tiles": [
+      {
+        "text": "К нам",
+        "role": "preposition"
+      },
+      {
+        "text": "приезжает",
+        "role": "verb"
+      },
+      {
+        "text": "ученик из России",
+        "role": "subject"
+      }
+    ]
+  },
+  {
+    "text": "По вечерам наша семья ужинает вместе.",
+    "meaning": "In the evenings our family eats dinner together.",
+    "tiles": [
+      {
+        "text": "По вечерам",
+        "role": "time"
+      },
+      {
+        "text": "наша семья",
+        "role": "subject"
+      },
+      {
+        "text": "ужинает вместе",
+        "role": "verb"
+      }
+    ]
+  },
+  {
+    "text": "Я хочу показать ему наш город.",
+    "meaning": "I want to show him our town.",
+    "tiles": [
+      {
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "text": "хочу показать",
+        "role": "verb"
+      },
+      {
+        "text": "ему",
+        "role": "complement"
+      },
+      {
+        "text": "наш город",
+        "role": "complement"
+      }
+    ]
+  },
+  {
+    "text": "В выходные мы можем сходить в музей.",
+    "meaning": "On the weekend we can go to a museum.",
+    "tiles": [
+      {
+        "text": "В выходные",
+        "role": "time"
+      },
+      {
+        "text": "мы",
+        "role": "subject"
+      },
+      {
+        "text": "можем сходить",
+        "role": "verb"
+      },
+      {
+        "text": "в музей",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Вчера я играла в теннис с моими друзьями.",
+    "meaning": "Yesterday I played tennis with my friends.",
+    "tiles": [
+      {
+        "text": "Вчера",
+        "role": "time"
+      },
+      {
+        "text": "я",
+        "role": "subject"
+      },
+      {
+        "text": "играла",
+        "role": "verb"
+      },
+      {
+        "text": "в теннис",
+        "role": "preposition"
+      },
+      {
+        "text": "с моими друзьями",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Вчера я ходила на тренировку по теннису, а потом играла с друзьями.",
+    "meaning": "Yesterday I went to a tennis lesson, then played with friends.",
+    "tiles": [
+      {
+        "text": "Вчера",
+        "role": "time"
+      },
+      {
+        "text": "я",
+        "role": "subject"
+      },
+      {
+        "text": "ходила",
+        "role": "verb"
+      },
+      {
+        "text": "на тренировку по теннису,",
+        "role": "preposition"
+      },
+      {
+        "text": "а потом",
+        "role": "time"
+      },
+      {
+        "text": "играла",
+        "role": "verb"
+      },
+      {
+        "text": "с друзьями",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Я гуляю с моей подругой.",
+    "meaning": "I walk with my female friend.",
+    "tiles": [
+      {
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "text": "гуляю",
+        "role": "verb"
+      },
+      {
+        "text": "с моей подругой",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Я гуляю с моим другом.",
+    "meaning": "I walk with my male friend.",
+    "tiles": [
+      {
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "text": "гуляю",
+        "role": "verb"
+      },
+      {
+        "text": "с моим другом",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Я гуляю с моими друзьями.",
+    "meaning": "I walk with my friends.",
+    "tiles": [
+      {
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "text": "гуляю",
+        "role": "verb"
+      },
+      {
+        "text": "с моими друзьями",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "Я играю в теннис с моими друзьями.",
+    "meaning": "I play tennis with my friends.",
+    "tiles": [
+      {
+        "text": "Я",
+        "role": "subject"
+      },
+      {
+        "text": "играю",
+        "role": "verb"
+      },
+      {
+        "text": "в теннис",
+        "role": "preposition"
+      },
+      {
+        "text": "с моими друзьями",
+        "role": "preposition"
+      }
+    ]
+  },
+  {
+    "text": "После школы я гуляю с друзьями.",
+    "meaning": "After school I walk with my friends.",
+    "tiles": [
+      {
+        "text": "После школы",
+        "role": "time"
+      },
+      {
+        "text": "я",
+        "role": "subject"
+      },
+      {
+        "text": "гуляю",
+        "role": "verb"
+      },
+      {
+        "text": "с друзьями",
+        "role": "preposition"
+      }
+    ]
+  }
+]

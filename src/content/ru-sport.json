@@ -1,0 +1,309 @@
+{
+  "id": "ru-sport-1",
+  "language": "ru",
+  "title": "Спорт и моя жизнь",
+  "subtitle": "Sport & my life",
+  "minutes": 20,
+  "prompt": "Your Russian-speaking friend wants to know how you stay physically active. Write a message describing activities you enjoy. Explain when you do them, who you do them with, and why you enjoy them.",
+  "independentPrompt": "A Russian-speaking friend is visiting you next weekend. Write a message describing an active day you would like to spend together. Include what you want to do, when and where, and why you enjoy these activities. Ask your friend a question.",
+  "sample": "Я люблю играть в теннис. Мы иногда играем с подругами после школы. Мне нравится, потому что весело. Ещё я люблю гулять с собакой.",
+  "skills": [
+    "Build original sentences",
+    "Add meaningful details",
+    "Connect your ideas",
+    "Write with confidence"
+  ],
+  "steps": [
+    {
+      "title": "Your mission",
+      "short": "Mission",
+      "description": "A little movement. A lot to say."
+    },
+    {
+      "title": "Speak & organize",
+      "short": "Find your ideas",
+      "description": "Good writing starts with your own ideas."
+    },
+    {
+      "title": "COLORED SENTENCE BUILDER",
+      "short": "Build a sentence",
+      "description": "A few colorful pieces. One complete thought."
+    },
+    {
+      "title": "Level up your sentence",
+      "short": "Add some meaning",
+      "description": "Give your reader a clearer picture."
+    },
+    {
+      "title": "Story rescue",
+      "short": "Connect the dots",
+      "description": "Turn separate thoughts into a message."
+    },
+    {
+      "title": "Grammar detective",
+      "short": "Spot & repair",
+      "description": "Small changes can make meaning clearer."
+    },
+    {
+      "title": "Your words. Your turn.",
+      "short": "Write on your own",
+      "description": "You have the tools. Now make it yours."
+    },
+    {
+      "title": "Look how far you’ve come",
+      "short": "Reflect & revise",
+      "description": "Notice your strengths. Choose your next step."
+    }
+  ],
+  "tiles": [
+    {
+      "id": "who",
+      "text": "Я",
+      "role": "subject"
+    },
+    {
+      "id": "action",
+      "text": "играю",
+      "role": "verb"
+    },
+    {
+      "id": "prep-activity",
+      "text": "в",
+      "role": "preposition"
+    },
+    {
+      "id": "what",
+      "text": "теннис",
+      "role": "activity"
+    },
+    {
+      "id": "prep-company",
+      "text": "с",
+      "role": "preposition"
+    },
+    {
+      "id": "company",
+      "text": "подругами",
+      "role": "company"
+    },
+    {
+      "id": "prep-time",
+      "text": "после",
+      "role": "preposition"
+    },
+    {
+      "id": "time",
+      "text": "школы",
+      "role": "time"
+    }
+  ],
+  "tileOrder": [
+    "company",
+    "prep-time",
+    "action",
+    "prep-company",
+    "time",
+    "who",
+    "what",
+    "prep-activity"
+  ],
+  "acceptableOrders": [
+    [
+      "who",
+      "action",
+      "prep-activity",
+      "what",
+      "prep-company",
+      "company",
+      "prep-time",
+      "time"
+    ],
+    [
+      "prep-time",
+      "time",
+      "who",
+      "action",
+      "prep-activity",
+      "what",
+      "prep-company",
+      "company"
+    ],
+    [
+      "who",
+      "prep-time",
+      "time",
+      "action",
+      "prep-activity",
+      "what",
+      "prep-company",
+      "company"
+    ],
+    [
+      "who",
+      "prep-company",
+      "company",
+      "action",
+      "prep-activity",
+      "what",
+      "prep-time",
+      "time"
+    ],
+    [
+      "prep-company",
+      "company",
+      "who",
+      "action",
+      "prep-activity",
+      "what",
+      "prep-time",
+      "time"
+    ],
+    [
+      "who",
+      "action",
+      "prep-activity",
+      "what",
+      "prep-time",
+      "time",
+      "prep-company",
+      "company"
+    ],
+    [
+      "prep-time",
+      "time",
+      "who",
+      "prep-company",
+      "company",
+      "action",
+      "prep-activity",
+      "what"
+    ],
+    [
+      "who",
+      "action",
+      "prep-time",
+      "time",
+      "prep-activity",
+      "what",
+      "prep-company",
+      "company"
+    ]
+  ],
+  "expansions": [
+    {
+      "id": "when",
+      "label": "Когда?",
+      "english": "When",
+      "example": "по субботам"
+    },
+    {
+      "id": "where",
+      "label": "Где?",
+      "english": "Where",
+      "example": "в парке"
+    },
+    {
+      "id": "why",
+      "label": "Почему?",
+      "english": "Why",
+      "example": "потому что это весело"
+    },
+    {
+      "id": "company",
+      "label": "С кем?",
+      "english": "With whom",
+      "example": "с друзьями"
+    }
+  ],
+  "story": [
+    {
+      "id": "a",
+      "text": "Я люблю активный отдых.",
+      "connector": "Во-первых",
+      "explanation": "This introduces your first reason."
+    },
+    {
+      "id": "b",
+      "text": "Я люблю играть в теннис.",
+      "connector": "Например",
+      "explanation": "Tennis is an example of an activity you enjoy."
+    },
+    {
+      "id": "c",
+      "text": "Я часто гуляю с собакой.",
+      "connector": "Кроме того",
+      "explanation": "This adds another activity, rather than a later event."
+    }
+  ],
+  "transitions": [
+    "Во-первых",
+    "Кроме того",
+    "Например",
+    "После этого",
+    "Поэтому"
+  ],
+  "grammar": [
+    {
+      "id": "agreement",
+      "error": "Я играю с мой подругой.",
+      "answer": "Я играю с моей подругой.",
+      "explanation": "С means ‘with’ here and takes the instrumental case. The words for ‘my’ and ‘friend’ agree: с моей подругой.",
+      "category": "orange"
+    },
+    {
+      "id": "time-case",
+      "error": "Я играю в теннис после школа.",
+      "answer": "Я играю в теннис после школы.",
+      "explanation": "После (‘after’) takes the genitive case: школа → после школы.",
+      "category": "orange"
+    }
+  ],
+  "demoFeedback": {
+    "summary": "This is an illustrative feedback example for the sample sports message. It does not evaluate your saved writing.",
+    "dimensions": [
+      {
+        "name": "Prompt completion",
+        "level": "Developing",
+        "detail": "The sample names activities, when, with whom, and why. It could add a place."
+      },
+      {
+        "name": "Comprehensibility",
+        "level": "Clear",
+        "detail": "A reader can understand the activities in the sample."
+      },
+      {
+        "name": "Sentence development",
+        "level": "Developing",
+        "detail": "The sample includes a reason with потому что. A more specific reason would add meaning."
+      },
+      {
+        "name": "Organization",
+        "level": "Developing",
+        "detail": "Ещё connects a second activity. Related details could stay together."
+      },
+      {
+        "name": "Language accuracy",
+        "level": "Developing",
+        "detail": "The sample’s с подругами and после школы show useful case patterns."
+      }
+    ],
+    "strengths": [
+      "The sample communicates personal activities in original sentences.",
+      "It gives both a time and a reason."
+    ],
+    "nextSteps": [
+      "In your own response, check that the reader knows where an activity happens.",
+      "Add a specific reason and a question to your friend."
+    ],
+    "issues": [
+      {
+        "category": "green",
+        "message": "The sample includes personal details."
+      },
+      {
+        "category": "yellow",
+        "message": "The sample could give a more specific reason."
+      }
+    ]
+  }
+}
